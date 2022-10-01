@@ -1,0 +1,19 @@
+let num1 = parseFloat(prompt('Enter num1: '));
+let num2 = parseFloat(prompt('Enter num2: '));
+const operation = prompt('Select the operator in promot (+, - , * , /): ');
+let result;
+if (operation == '-') {
+result = num1 - num2;
+}
+else if (operation == '+') {
+result = num1 + num2;
+}
+else if (operation == '/') {
+result = num1 / num2;
+}
+else {
+result = num1 * num2;
+}
+console.log(`${num1} ${operation} ${num2} = ${result}`);
+_app-fd2796b0e263c376b117.js:1 15 + 20 = 35
+undefined
